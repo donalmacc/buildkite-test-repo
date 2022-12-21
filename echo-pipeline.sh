@@ -5,4 +5,6 @@ set -eu
 
 # begin the pipeline.yml file
 echo "steps:"
-echo "  - command: \"echo "${1}"\""
+- label: "Tests"
+echo "  - label: \"${1}\"
+echo "    command: \"echo "Building ${1}"\""

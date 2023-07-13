@@ -2,11 +2,11 @@ agents:
   queue: "default"
 
 steps:
-  - label: "Sleep 30"
-    command: "sleep 30"
+  - label: "Sleep Long"
+    command: "sleep 120"
     
-  - label: "Sleep 30"
+  - label: "Sleep Short"
     command: "sleep 10"
     
-  - label: "Sleep 10"
+  - label: "Sleep Short"
     command: "sleep 10"

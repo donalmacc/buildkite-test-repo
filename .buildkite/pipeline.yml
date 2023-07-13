@@ -5,8 +5,8 @@ steps:
   - label: "Sleep Long"
     command: "sleep 120"
     
-  - label: "Sleep Short"
-    command: "sleep 10"
+  - label: "Sleep Long"
+    command: "sleep 120"
     
   - label: "Sleep Short"
     command: "sleep 10"

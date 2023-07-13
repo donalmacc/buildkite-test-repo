@@ -1,9 +1,9 @@
 agents:
-  queue: "something"
+  queue: "default"
 
 steps:
   - label: "Sleep 30"
-    command: "sleep 10"
+    command: "sleep 30"
     
   - label: "Sleep 30"
     command: "sleep 10"

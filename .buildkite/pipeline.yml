@@ -1,0 +1,12 @@
+agents:
+  queue: "something"
+
+steps:
+  - label: "Sleep 30"
+    command: "sleep 10"
+    
+  - label: "Sleep 30"
+    command: "sleep 10"
+    
+  - label: "Sleep 10"
+    command: "sleep 10"
